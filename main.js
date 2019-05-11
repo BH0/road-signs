@@ -1,6 +1,6 @@
 
     let terms = [
-        {term: "national speed limit", definition: "lorem"}, 
+        {term: "national speed limit", definition: "the national speed limit is 60mph"}, 
         {term: "give way", definition: "lorem2" },
         {term: "overtaking", definition: "lorem3"}, 
         {term: "clearway", definition: "lorem4"},
