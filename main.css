@@ -131,3 +131,8 @@ li {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+#road-sign { 
+  width: 100px; 
+  height: 100px; 
+}
