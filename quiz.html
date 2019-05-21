@@ -48,13 +48,6 @@
             if (time <= 0) time = 0; 
             document.querySelector("#timer").innerHTML = time; 
         }, 1000); 
-        
-        /* 
-        let index = Math.floor(Math.random() * 3); 
-        document.getElementById(index.toString()).innerText = roadSigns[index].description; 
-        document.getElementById(index.toString()).innerText = roadSigns[index].description; 
-        document.getElementById(index.toString()).innerText = roadSigns[index].description; 
-        */ 
 
         document.querySelector("img").src = roadSigns[Math.floor(Math.random() * 3)].image; 
 
@@ -76,8 +69,6 @@
                             alert("correct!"); 
                             location.reload();            
                         } else  {
-                            // alert("incorrect"); 
-                            // location.reload(); 
                             console.log("incorrect"); 
                         }
                     }); 
